@@ -1,7 +1,7 @@
-#VIM Learning
+# VIM Learning
 
 ## VIM Arguments
-vim -O file1 file2 
+'vim -O file1 file2'
 - Open files in 2 windows at once
 
 
