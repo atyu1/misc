@@ -9,3 +9,6 @@ vim -O file1 file2
 windo difft 
 - For every window do diff and highlight difference
 
+
+## VIM ESC MODE
+
