@@ -1,7 +1,7 @@
 # VIM Learning
 
 ## VIM Arguments
-'vim -O file1 file2'
+vim -O file1 file2
 - Open files in 2 windows at once
 
 
@@ -11,4 +11,59 @@ windo difft
 
 
 ## VIM ESC MODE
+
+
+## Theory
+- Basic syntaxt
+`[count][operator][text object/motion]`
+
+
+Examples:
+- 6+ = 6x down to line start
+- gUaW = capitalize a word
+- 3ce = 3x change the word end
+- 4$ = 4x go to the end of line
+- d]m = delete to start of next mehtod
+- % = jump to the next parent or bracket
+
+
+### Operators
+- c = change
+- d = delete
+- y = yank into register
+- ~ = swap case
+- gu = make lowercase
+- gU = mkae uppercase
+- ! = filter to external program
+- < or > = shift left/right
+- = = indent
+
+### Text Objects
+- a = word + space
+- inner = only word
+
+- aw = a word
+- iw = inner word
+- aW = a WORD
+- iW = inner WORD
+- ap or ip = a/inner paragraph
+- ab or ib = a/inner bracket
+- at or it = a/inner tag block
+
+### Motions
+- numbers are optional
+
+- % = go to first matching pattern
+- 3+ = down 3 to first non-blank char of line
+- 3$ = to end of line
+- 3f/F{char} = to next occuerence of {char}
+- 3t/T{char} = to before next occurence of {char}
+- 3h/j/k/l = left down up right
+- ]m = go to beginning of next method
+- w/W = go a word to the right
+- b/B = go a word to the left
+- e/E = go to the end of word
+
+
+
 
