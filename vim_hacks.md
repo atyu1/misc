@@ -64,6 +64,18 @@ Examples:
 - b/B = go a word to the left
 - e/E = go to the end of word
 
+## GENERAL MOVEMENTS
+- H,M,L = High,Middle,Low = Top,Center and Bottom of the screen
+- h,j,k,l = up down left right
+- CTRL+U/CTRL+D = half page scroll up/down
+- CTRL+B/CTRL+F = full page scroll up/down
 
+## SEARCHING
+- :/<pattern> = search for pattern forward
+- :?<pattern> = search forr pattern backward
+- n,N = next, previous
+- `*` = search forward for word under cursor
+- # = search backward like *
 
+ 
 
