@@ -1,4 +1,5 @@
 # VIM Learning
+Written in VIM ... 
 
 ## VIM Arguments
 vim -O file1 file2
@@ -75,7 +76,11 @@ Examples:
 - :?<pattern> = search forr pattern backward
 - n,N = next, previous
 - `*` = search forward for word under cursor
-- # = search backward like *
+- \\# = search backward like *
 
- 
+## File editing
+- :o[pen] = open file
+- :fin[d] = find and open file
+- CTRL+^ = switch between openned files
+
 
