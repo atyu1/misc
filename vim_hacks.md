@@ -78,9 +78,24 @@ Examples:
 - `*` = search forward for word under cursor
 - \\# = search backward like *
 
+## Bookmarks
+- m<char> = define postion
+- `<char> = return to position
+- :marks = show current tags
+
 ## File editing
 - :o[pen] = open file
 - :fin[d] = find and open file
 - CTRL+^ = switch between openned files
+
+## TAGS
+- Navigate in projects with CTRL-] and CTRL-t
+
+## Changes
+- :jumps - see all the movements in VIM
+- :changes - see all the changes
+- g; and g, - cycle through changes
+- CTRL-I, CTRL-O = jump forward/backward, usefull if you go to another file and wanna come back
+
 
 
