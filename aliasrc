@@ -1,0 +1,5 @@
+# GIT
+alias gp="git push -u origin"
+alias gpm="git push -u origin master"
+alias ga="git add"
+alias gc="git commit -m"
