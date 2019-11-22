@@ -1,10 +1,11 @@
 # General
-set number
+ - set number = show absolute (normal) numbers
+ - set relativenumber = show current line as 0 and other +- lines
 
 
 Copy:
 ```
-set number
+set number relativenumber
 
 ```
 
