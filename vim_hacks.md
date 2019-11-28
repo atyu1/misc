@@ -13,7 +13,6 @@ windo difft
 
 ## VIM ESC MODE
 
-
 ## Theory
 - Basic syntaxt
 `[count][operator][text object/motion]`
@@ -26,6 +25,7 @@ Examples:
 - 4$ = 4x go to the end of line
 - d]m = delete to start of next mehtod
 - % = jump to the next parent or bracket
+- ci'' = (second quote is just escape) change inside quote the text
 
 
 ### Operators
@@ -70,15 +70,16 @@ Examples:
 - h,j,k,l = up down left right
 - CTRL+U/CTRL+D = half page scroll up/down
 - CTRL+B/CTRL+F = full page scroll up/down
+- CTRL-E/CTRY+Y = scrol without moving cursor
 
 ## SEARCHING
 - :/<pattern> = search for pattern forward
-- :?<pattern> = search forr pattern backward
+- :?<pattern> = search for pattern backward
 - n,N = next, previous
 - `*` = search forward for word under cursor
 - \\# = search backward like *
 
-## Bookmarks
+## Bookmarks - like in books where I left my reading?
 - m<char> = define postion
 - `<char> = return to position
 - :marks = show current tags
@@ -89,6 +90,7 @@ Examples:
 - CTRL+^ = switch between openned files
 
 ## TAGS
+- Good for beginners
 - Navigate in projects with CTRL-] and CTRL-t
 
 ## Changes
@@ -98,4 +100,36 @@ Examples:
 - CTRL-I, CTRL-O = jump forward/backward, usefull if you go to another file and wanna come back
 
 
+## VIM Buffers
+- Buffers are regular browser Tabs
+- Windows are buffer viewports
+- Buffers are historic view of every edited file 
 
+- :buffers - print buffers
+- :bn - go to next buffer
+- :b <filename>  - go to buffer filename
+- :bd - delete current buffer
+
+
+- Arguments represents openned files
+- Stable buffer list
+- :arga <filename> - add filename to arg list
+- :n  - go to next file in arg list
+
+- Windows is just splitting buffers
+- CTRL+W s - split windows horizontally
+- CTRL+W v - split windows vertically
+- CTRL+W q - close window
+- CTRL+W r - rotate windows = exchange windows positions
+- CTRL+W w - move cursror between windows
+- :windo <cmd> - execute command for all windows
+- :sf <file> - split window and find file
+
+
+- TABs are window containers
+- Tabs are couple of windows, like 1 TAB is 1 IDE
+- gt - go to next tab
+- gT - go to prev tab
+- :tabc - close tab
+- :tabe - open tap
+- :tabo - close all other tabs
