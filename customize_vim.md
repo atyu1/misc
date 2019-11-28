@@ -10,7 +10,8 @@ set number relativenumber
 ```
 
 # Make IDE
-
+- Make Windows CTRLW+s/v/q/r/w
+- :20vs .
 
 # Code level stuff
 ## Python
